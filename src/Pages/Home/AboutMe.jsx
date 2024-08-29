@@ -8,7 +8,6 @@ import {
   MDBCardImage,
   MDBCardTitle,
   MDBCardText,
-  MDBCardLink,
   MDBBtn
 } from 'mdb-react-ui-kit';
 import '../../Components/ProjectsCards/Projects.css';
