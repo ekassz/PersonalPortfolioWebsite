@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ContactBox from "../../Components/ContactBox";
 
 export default function ContactMe(){
