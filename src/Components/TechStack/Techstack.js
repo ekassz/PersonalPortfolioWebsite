@@ -1,4 +1,4 @@
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon} from '@iconify/react';
 import reactIcon from '@iconify/icons-logos/react';
 import javaIcon from '@iconify/icons-logos/java';
 import pythonIcon from '@iconify/icons-logos/python';
