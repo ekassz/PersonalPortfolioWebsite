@@ -1,0 +1,38 @@
+.projects-title {
+  color: brown;
+  font-weight: bold;
+}
+
+.project-card {
+  height: 100%; /* Ensure all cards have the same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card .card-img-top {
+  max-height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.row-equal-height{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card img {
+  cursor: pointer; /* Changes the cursor to a pointer (hand icon) */
+}
+
+.title h2{
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: brown;
+}
