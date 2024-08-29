@@ -1,6 +1,6 @@
 import React from "react";
 import uwImg from "../Images/uwpic.JPG"
-import {Col, Row, Container, Card, Button} from 'react-bootstrap';
+import {Col, Row, Container} from 'react-bootstrap';
 import wiscience from "../../Assets/wiscience.png";
 import {
   MDBCard,
