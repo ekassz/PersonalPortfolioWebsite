@@ -5,6 +5,8 @@ import MadisonVisual from '../../Assets/MadisonVisual.png';
 import TestRail from '../../Assets/TestRail.png';
 import BadgerChat from '../../Assets/BadgerChat.png';
 import Survey from '../../Assets/Survey.png';
+import Portfolio from "../../Assets/Portfolio.png";
+import Figma from "../../Assets/figma.png";
 import './Projects.css';
 
 function ProjectCards() {
@@ -91,6 +93,38 @@ function ProjectCards() {
         </Card.Body>
     </Card>
     </Col> 
+
+      <Col xs={6} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
+  
+    <Card className="project-card" border='primary' style={{ width: '100%' }}>
+      <Card.Img variant="top" src={Portfolio}/>
+      <Card.Body>
+        <Card.Title>Personal Portfolio</Card.Title>
+        <Card.Text>
+          Did my own portfolio website, the one you are actually seeing throught right now! I used JS, React, Bootstrap, HTML, and CSS to complete in the span of 1 month. Also did a Figma prototype to be able to play both the designer and front-end roles.
+         </Card.Text>
+      </Card.Body>
+      <Card.Body>
+        <Button href="https://github.com/ekassz/PersonalPortfolioWebsite/tree/main">Portfolio Repo</Button>
+        </Card.Body>
+    </Card>
+    </Col> 
+
+    <Col xs={6} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
+  
+    <Card className="project-card" border='warning' style={{ width: '100%' }}>
+      <Card.Img variant="top" src={Figma}/>
+      <Card.Body>
+        <Card.Title>Figma Portfolio Prototype</Card.Title>
+        <Card.Text>
+          Worked with Figma to make a background for this website, as well as prototype and design a mockup for how I wanted the elements and structure to look like.
+          </Card.Text>
+      </Card.Body>
+      <Card.Body>
+        <Button href="https://www.figma.com/proto/hCeTSltuBDuIdWrqXPQVHD/Portfolio?node-id=0-1&t=d6f0Cf876Y8M6wp8-1">Figma Prototype</Button>
+        </Card.Body>
+    </Card>
+    </Col>   
 
     </Row>
      
