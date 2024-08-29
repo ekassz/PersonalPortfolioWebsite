@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ProjectCards from "../../Components/ProjectsCards/ProjectCards";
 import HardwareProjects from "../../Components/ProjectsCards/HardwareProjects";
 import DigitalProjects from "../../Components/ProjectsCards/DigitalProjects";
