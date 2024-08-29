@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Techstack from "../../Components/TechStack/Techstack";
 import Experience from "../../Components/Experience/Experience";
 import TechnicalBG from "../../Components/Experience/TechnicalBG";
