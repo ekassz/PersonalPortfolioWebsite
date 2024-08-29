@@ -64,7 +64,7 @@ export default function AboutMe(){
                     <MDBCardText>
                         Meets with the L&S Dean to talk about potential improvements surrounding L&S students and creating inclusivity.
                     </MDBCardText>
-                    <MDBBtn tag="a" href="https://ls.wisc.edu/current-students/deans-ambassadors" className="stretched-link">Peer Leader Intro</MDBBtn>
+                    <MDBBtn tag="a" href="https://ls.wisc.edu/current-students/deans-ambassadors" className="stretched-link">Student Ambassador</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
 
