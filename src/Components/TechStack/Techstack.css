@@ -1,0 +1,22 @@
+.tech-stack{
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+
+.tech-stack h2{
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: brown;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}

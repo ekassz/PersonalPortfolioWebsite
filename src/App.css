@@ -1,0 +1,678 @@
+/* Global CSS */
+body{
+  margin: 0;
+  font-family: "DM Serif Display", "Koh Santepheap", "Francois One";
+  font-style: normal;
+  background-image: url('./Pages/Images/BackgroundLayout.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+
+}
+
+:root{
+  --primary:blue;
+  --heading--color: green;
+  --bg--shade: nude;
+  --github: purple;
+  --darkgreen: green;
+  --black: #000000;
+  --white: #ffffff;
+
+}
+
+.btn{
+  font-family: "DM Serif Display";
+  padding: 10px 32px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: blanchedalmond;
+  border-color: whitesmoke;
+
+}
+
+.btn-outline-primary{
+  color: beige;
+  background-color: blue;
+  border: 1px solid ;
+}
+.btn-outline-primary:hover{
+  color: white;
+  background-color: beige;
+}
+.btn-primary{
+  color: darkgoldenrod;
+  background-color: navajowhite;
+  border: 1px solid ;
+}
+.btn-primary:hover{
+  color: navajowhite;
+  background-color: darkgoldenrod;
+}
+.btn-github{
+  color:white;
+  background-color: var(--github);
+  border: var(--github);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.95);
+  gap:16px;
+
+}
+
+.btn-github:hover{
+  color: var(--github);
+  background-color: var(--white);
+}
+/*setting in the top right corner*/
+.navbar{
+  position: fixed;
+  top: 0;
+  right: -1000px;
+  margin: 20px;
+  z-index: 10;
+}
+/* displaying it horizontally nav*/
+.nav-list{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+/*changing the color of nav text */
+.nav-item a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+/*Global CSS Ends Here*/
+
+/* Main Headings */
+ 
+/*Heading 1*/
+h1{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 67px;
+}
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+/* Paragraph Texts */
+.text-lg{
+  color: black;
+  font-size: 1.125rem;
+  font-style:normal;
+  font-weight: 400;
+  line-height: 1.6;
+  top: 0;
+  left: 0;
+}
+
+.text-md{
+  color: var(--darkgreen);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  top: 0;
+}
+
+.text-sm{
+  color: var(--darkgreen);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  top: 0;
+}
+
+.highlighted-SWE-text{
+  color: brown;
+}
+
+.hello-highlight-text{
+  color: green;
+  font-size: 40px;
+}
+
+/*Section Titles */
+/* Skills & About Me */
+.section--title{
+  color: var(--heading--color);
+  font-size: 3rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: 80px;
+}
+
+/* Resume, Contact Me, Projects */
+.sub--title{
+  color: var(--heading--color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* Hero Section */
+.hero--section{
+  display: flex;
+  padding: 133.333px 85.333px 133.333px;
+  background-color: var(--bg--shade);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero--section--content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  
+  
+}
+
+.containerRight{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+
+  
+}
+
+.hero--section--content--box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 20px;
+  
+
+}
+.contact-box-container {
+  margin-top: 20px; /* Adjust as needed for spacing */
+  display: flex;
+  justify-content: center; /* Center the contact box horizontally */
+  width: 100%;
+  
+}
+
+.hero--section--content--box > button{
+  margin-top: 21.333px;
+}
+
+.hero--section--title{
+  color: black;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.hero--section--title--color{
+  color: brown;
+  font-size:x-large;
+
+}
+
+.hero--section--description{
+  color: darkred;
+  font-size: 1.2rem;
+  
+}
+
+.hero--section--middle--header{
+  position: absolute;
+  margin-top: 1300px;
+  margin-left: 550px;
+}
+
+.rightBoxContent{
+   flex: 2;
+  margin: 0;
+  background-color: rgba(241, 236, 213, 0.753);
+  font-size: 1rem; /* Adjusts based on screen size */
+}
+
+.leftBoxContent{
+  flex: 1;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.leftBoxContent img{
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid navajowhite;
+  transition: border-color 0.3s ease;
+}
+
+.leftBoxContent img:hover{
+  border-color: brown;
+}
+
+.hero--section--img{
+  flex: 1;
+}
+.hero--section--img img {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  border: 5px solid navajowhite;
+  transition: border-color 0.3s ease;
+}
+
+.hero--section--img img:hover{
+  border-color: brown;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(170, 157, 113, 0.679);
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  z-index: 6;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copywright,
+.footer-body {
+  color: white;
+  
+}
+
+.footer-copywright h2,
+.footer-body h2 {
+  margin: 0;
+  font-size: 1em;
+}
+
+.footer-icons {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.icon-colour {
+  color: #700c86;
+}
+
+.blockquote-footer {
+  color: #a588c0;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .footer-copywright h2,
+  .footer-body h2 {
+    font-size: 0.9em;
+  }
+  .footer-body{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+  .footer-icons {
+    justify-content: center;
+  }
+
+  .social-icons {
+    padding: 10px 0;
+  }
+
+  
+}
+@media (min-width: 1366px) {
+ .rightBoxContent {
+    font-size: 1.25rem;
+  }
+
+  .hero--section--title--color {
+    font-size: 1.7rem;
+  }
+  .text-lg{
+    font-size: 1.3rem;
+  } 
+}
+@media (max-width: 1200px) {
+  .containerRight {
+    flex-direction: column;
+    font-size: 1rem;
+  }
+
+  .rightBoxContent {
+    font-size: 1rem;
+  }
+
+  .hero--section--title--color {
+    font-size: 1rem;
+  }
+  .text-lg{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .rightBoxContent {
+    font-size: 1.25rem;
+  }
+
+  .hero--section--title--color {
+    font-size: 1rem;
+  }
+  .text-lg{
+    font-size: 0.7=6rem;
+  }
+  
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .hero--section--title {
+        font-size: 3rem;
+    }
+
+    .hero--section--description {
+        font-size: 1.3rem;
+    }
+
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .hero--section--title {
+        font-size: 3.5rem;
+    }
+
+    .hero--section--description {
+        font-size: 1.4rem;
+    }
+
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hero--section--title {
+        font-size: 4rem;
+    }
+
+    .hero--section--description {
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .hero--section--title {
+        font-size: 4.5rem;
+    }
+
+    .hero--section--description {
+        font-size: 1.6rem;
+    }
+}
+
+/* Contact Box */
+.input-class{
+  border: 4px solid darkred;
+  background-color: wheat;
+  color: darkred;
+  font-weight: 500;
+  transition: border 0.2s ease-in-out;
+}
+
+.form-input {
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50px; 
+  outline: none;
+  margin-bottom: 2rem;
+  padding: 0.7rem 0.7rem;
+  border-radius: 20px;
+  width: 100%; 
+  resize: none;
+}
+.form-input::placeholder{
+  color: darkred;
+}
+
+.input-container {
+  width: 100%;
+}
+
+.contacts-form {
+  display: flex;
+  flex: 0.4;
+  width: 100%;
+}
+
+.contacts-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.label-class{
+  background-color: wheat;
+  color: darkred;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0 5px;
+  transform: translate(25px,50%);
+  display: inline-flex;
+  width: fit-content;
+}
+
+.form-message {
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 50px; 
+  outline: none;
+  margin-bottom: 2rem;
+  padding: 0.7rem 0.7rem;
+  border-radius: 20px;
+  width: 100%;
+  resize: none;
+}
+.form-message::placeholder{
+  color: darkred;
+}
+
+.contacts-body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.submit-btn button {
+  border: none;
+  outline: none;
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.submitBtn{
+  background-color: #fbd9ad;
+  color: brown;
+  transition: 250ms ease-in-out;
+  font-weight: 700;
+}
+
+.send-icon {
+  font-size: 25px;
+  transform-origin: center;
+  transform: translate(5px,-3px) rotate(-30deg);
+}
+
+.contact-map iframe {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+}
+
+.contact-span{
+  color: #ff6e36;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.contact-para{
+  border-left: 1px solid lightgrey;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.detailsIcon{
+  background-color: #fbd9ad;
+  color: brown;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  transition: 250ms ease-in-out;
+  flex-shrink: 0;
+}
+.detailsIcon:hover{
+  transform: scale(1.1);
+  color: #fbd9ad;
+  background-color: darkred;
+}
+
+.contacts-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex: 0.6;
+  box-sizing: border-box;
+  padding-left: 7rem;
+  margin-top: 1.2rem;
+  
+}
+.aboutme-heading{
+  font-size: 4.6em;
+  color: darkred;
+}
+.contact-map{
+  padding-left: 7rem;
+  
+}
+
+.contact-map iframe {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+}
+@media (max-width: 767px) {
+  .contacts-details {
+    padding-left: 0.5rem;
+    padding-top: 20px !important;
+  }
+  .personal-details p {
+    width: 95% !important;
+  }
+  .contact-map{
+    padding-left: 0.8rem;
+    padding-right: 20px;
+  }
+}
+
+
+.personal-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  text-decoration: none;
+}
+
+.personal-details p {
+  padding-top:10px;
+  margin-left: 1.5rem;
+  font-size: 18px;
+  line-height: 110%;
+  font-weight: 500;
+  width: 57%;
+  word-break: break-word;
+  text-align: left;
+}

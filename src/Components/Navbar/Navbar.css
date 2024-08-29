@@ -1,0 +1,66 @@
+/* navbar.css */
+
+.navbar {
+  background-color: transparent; /* Default background color */
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 0.3rem 2rem !important;
+  position: fixed !important;
+}
+
+.sticky-navbar {
+  background: rgba(244, 234, 189, 0.615); /* Background color when scrolled */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.logo-text {
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold;
+  color: #000000; /* Default text color */
+}
+
+.logo-dark {
+  color: darkred; /* Text color for dark mode */
+}
+
+.logo-light {
+  color: #000000ae; /* Text color for light mode */
+}
+
+.toggleButton span {
+  display: block;
+  height: 3px;
+  background: #333;
+  margin: 5px 0;
+}
+
+.theme-switch {
+  cursor: pointer;
+}
+
+/* Light mode profile picture */
+.profile-pic {
+  width: 50px; /* Small size for circular profile picture */
+  height: 50px; /* Ensure height matches width for a perfect circle */
+  border-radius: 50%; /* Makes the picture a circle */
+  margin-right: 10px; /* Space between image and name */
+  object-fit: cover; /* Ensures the image scales well within the circle */
+}
+
+.profile-pic-light {
+  border: 2px solid #ffffff; /* Light mode border */
+}
+
+/* Dark mode profile picture */
+.profile-pic-dark {
+  border: 2px solid #333333; /* Dark mode border */
+}
+
+/* Active link styles */
+.active-link {
+  color: darkred !important; /* Change the color of the active link */
+  font-weight: bold; /* Optional: Make the active link bold */
+}
+
+.nav-link:hover{
+  color: darkred !important;
+}
