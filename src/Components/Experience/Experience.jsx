@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Container, SectionTitle } from '../../Components/Experience/expStyle';
 import { motion } from 'framer-motion';
-import React, { useContext } from 'react';
+import React from 'react';
 
 
 
