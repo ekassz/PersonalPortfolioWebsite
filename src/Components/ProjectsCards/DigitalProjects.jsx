@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import React, {useState} from 'react';
-import {Row, Col, Container, Button, Modal, Carousel} from 'react-bootstrap';
+import {Row, Col, Container, Modal, Carousel} from 'react-bootstrap';
 import Me from "../../Assets/me.mp4";
 import Aesthetics from "../../Assets/Aesthetics.mp4";
 import AlteredImage from "../../Assets/AlteredImage-1.jpg";
