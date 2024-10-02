@@ -20,3 +20,8 @@
     flex-wrap: wrap;
     gap: 60px;
 }
+
+.responsive-icon{
+    width: 100vw;
+    height: auto;
+}

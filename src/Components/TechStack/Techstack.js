@@ -31,10 +31,10 @@ const icons = [
 export default function Techstack() {
     return (
         <Container className="tech-stack">
-            <h2>Tech Stack</h2>
-            <Row className="icons">
+            <h2 className='text-center'>Tech Stack</h2>
+            <Row className="row-equal-height g-4 icons responsive-icon">
                 {icons.map((item, index) => (
-                    <Col xs={4} md={3} lg={2} xl={1} key={index}>
+                    <Col xs={3} md={3} lg={2} xl={1} key={index}>
                         <Icon icon={item.icon} width={item.width} height={item.height} />
                         </Col>
                 ))}

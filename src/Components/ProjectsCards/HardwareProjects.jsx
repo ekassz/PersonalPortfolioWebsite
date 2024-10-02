@@ -9,7 +9,7 @@ function HardwareProjects() {
     <Container className='title'>
       <h2 className='text-center'>Hardware Projects</h2>
     <Row className="row-equal-height g-4">
-    <Col xs={6} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
+    <Col xs={12} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
   
     <Card className="project-card" border="primary" style={{ width: '100%' }}>
       <Card.Img variant="top" src={PCBuild}/>
@@ -25,7 +25,7 @@ function HardwareProjects() {
     </Card>
     </Col>
 
-    <Col xs={6} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
+    <Col xs={12} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
   
     <Card className="project-card" border="secondary" style={{ width: '100%' }}>
       <Card.Img variant="top" src={PCBuild2}/>
