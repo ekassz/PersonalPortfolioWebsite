@@ -102,22 +102,6 @@ function ProjectCards() {
                 </MDBCardBody>
             </MDBCard>
             </Col>
-
-            <Col xs={12} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
-            <MDBCard className="project-card" border="primary" style={{ width: '100%'}}>
-                <MDBCardImage
-                src={Survey}
-                position="top"
-                alt="MeritIT"/>
-                <MDBCardBody>
-                    <MDBCardTitle>Hack Survey App</MDBCardTitle>
-                    <MDBCardText>
-                      Participated in a Hack Week within Starbucks and integrated a survey pop-up feature in the Starbucks app using React-Native. We ended up making it to the Sweet 16 rounds!
-                      </MDBCardText>
-                    <MDBBtn tag="a" href="https://atlasfellows.org/fellow/emili-robles/" className="stretched-link">ATLAS Scholar</MDBBtn>
-                </MDBCardBody>
-            </MDBCard>
-            </Col>
             
             <Col xs={12} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
             <MDBCard className="project-card" border="danger" style={{ width: '100%'}}>
