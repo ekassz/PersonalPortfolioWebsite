@@ -3,7 +3,8 @@ My site is now live to checkout at: https://emiliportfolio.netlify.app/
 
 I mainly worked with JS, React, and Bootstrap to complete this project. I wanted to showcase my resume and experience in a way that I could also show my creativity through design and the interface side of programming. Hopefully with a glimpse of this site, you'll be more aware as to who I am as an engineer, student, and woman in tech!
 ### Website Home Page:
-![image](https://github.com/user-attachments/assets/a058b7bf-89c0-4e53-8cde-5dddaa90b8e0)
+![image](https://github.com/user-attachments/assets/bb6aa652-dc0f-467a-b274-2e3088b66e9b)
+
 
 ##
 
