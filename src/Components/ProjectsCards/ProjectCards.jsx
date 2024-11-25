@@ -1,5 +1,4 @@
-import Card from 'react-bootstrap/Card';
-import {Row, Col, Container, Button} from 'react-bootstrap';
+import {Row, Col, Container} from 'react-bootstrap';
 import LinkTreeEmili from '../../Assets/LinkTreeEmili.png';
 import MadisonVisual from '../../Assets/MadisonVisual.png';
 import TestRail from '../../Assets/TestRail.png';
