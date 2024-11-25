@@ -25,7 +25,7 @@ function ProjectCards() {
                 <MDBCardImage
                 src={LinkTreeEmili}
                 position="top"
-                alt="Wiscience"/>
+                alt="linktree"/>
                 <MDBCardBody>
                     <MDBCardTitle>Personal Link Tree</MDBCardTitle>
                     <MDBCardText>
@@ -41,13 +41,13 @@ function ProjectCards() {
                 <MDBCardImage
                 src={MadisonVisual}
                 position="top"
-                alt="LSAmbassador"/>
+                alt="visual"/>
                 <MDBCardBody>
                     <MDBCardTitle>Madison Counties Visualization</MDBCardTitle>
                     <MDBCardText>
                         Analyzed the relationship between population density and use in Wisconsin counties using geospatial data and machine learning models.
                     </MDBCardText>
-                    <MDBBtn tag="a" href="https://github.com/ekassz/MadisonVisualization" className="stretched-link">Peer Leader Intro</MDBBtn>
+                    <MDBBtn tag="a" href="https://github.com/ekassz/MadisonVisualization" className="stretched-link">Madison Visual</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
             </Col>
@@ -57,13 +57,13 @@ function ProjectCards() {
                 <MDBCardImage
                 src={TestRail}
                 position="top"
-                alt="RTCLeader"/>
+                alt="automation"/>
                 <MDBCardBody>
                     <MDBCardTitle>Android Test Case Automation Tool</MDBCardTitle>
                     <MDBCardText>
                       This was an intern project where I worked with Kotlin, Postman and the Starbucks android mobile codebase to implement an automation tool to update test cases in test rail faster.
                       </MDBCardText>
-                    <MDBBtn tag="a" href="https://drive.google.com/file/d/1YbILVpz5NGgpzPRSIDV9NTcj_6AwlbKc/view?usp=sharing" className="stretched-link">Summer Leader</MDBBtn>
+                    <MDBBtn tag="a" href="https://drive.google.com/file/d/1YbILVpz5NGgpzPRSIDV9NTcj_6AwlbKc/view?usp=sharing" className="stretched-link">Automation Tool</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
             </Col>
@@ -73,13 +73,13 @@ function ProjectCards() {
                 <MDBCardImage
                 src={BadgerChat}
                 position="top"
-                alt="MeritIT"/>
+                alt="badgerchat"/>
                 <MDBCardBody>
                     <MDBCardTitle>Badger Chat Room</MDBCardTitle>
                     <MDBCardText>
                       Used an API generated from my class to get student data and created an app where you create your own personal account and can post messages for anyone else in the class with an account to see.
                     </MDBCardText>
-                    <MDBBtn tag="a" href="https://github.com/ekassz/BadgerBook/tree/main" className="stretched-link">IT Student Lead</MDBBtn>
+                    <MDBBtn tag="a" href="https://github.com/ekassz/BadgerBook/tree/main" className="stretched-link">Badger Chat</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
             </Col>
@@ -89,29 +89,13 @@ function ProjectCards() {
                 <MDBCardImage
                 src={Survey}
                 position="top"
-                alt="MeritIT"/>
+                alt="stbxhack"/>
                 <MDBCardBody>
                     <MDBCardTitle>Hack Survey App</MDBCardTitle>
                     <MDBCardText>
                       Participated in a Hack Week within Starbucks and integrated a survey pop-up feature in the Starbucks app using React-Native. We ended up making it to the Sweet 16 rounds!
                       </MDBCardText>
-                    <MDBBtn tag="a" href="https://atlasfellows.org/fellow/emili-robles/" className="stretched-link">ATLAS Scholar</MDBBtn>
-                </MDBCardBody>
-            </MDBCard>
-            </Col>
-
-            <Col xs={12} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
-            <MDBCard className="project-card" border="primary" style={{ width: '100%'}}>
-                <MDBCardImage
-                src={Survey}
-                position="top"
-                alt="MeritIT"/>
-                <MDBCardBody>
-                    <MDBCardTitle>Hack Survey App</MDBCardTitle>
-                    <MDBCardText>
-                      Participated in a Hack Week within Starbucks and integrated a survey pop-up feature in the Starbucks app using React-Native. We ended up making it to the Sweet 16 rounds!
-                      </MDBCardText>
-                    <MDBBtn tag="a" href="https://atlasfellows.org/fellow/emili-robles/" className="stretched-link">ATLAS Scholar</MDBBtn>
+                    <MDBBtn tag="a" href="https://atlasfellows.org/fellow/emili-robles/" className="stretched-link">Starbucks Hack</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
             </Col>
