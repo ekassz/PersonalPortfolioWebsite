@@ -14,11 +14,15 @@ export default function TechnicalBG(){
                 <Col md={6} xs={12} className='rightBoxContent'>
                 <p className='text-lg'>
                     <span className="hero--section--title--color">Hola! </span>
-                    My journey into the tech world has been quite an adventure, marked by a few shifts along the way. I initially enrolled at UW-Madison as a Finance major, driven by a long-standing passion for math and a desire to pursue a STEM career. As a first-generation student with limited guidance, business seemed like a practical and secure choice.
                     <br/>
-                    I was fortunate enough to receive a scholarship that included an internship opportunity as a Machine Learning intern before my first year of university. That experience was eye-opening and made me realize that my true interests were in tech.
-                    <br/>
-                    But even then, something felt missing. As you can see throughout this website, I have a deep passion for design, and I knew I wanted to have front-end experience. This drove me to work even harder to double major with Computer Science. I found that I love combining design, coding, and analysis, particularly in front-end development. Previously, I explored these passions separately, it was only when I discovered coding that I realized how all these interests could be merged, especially in front-end development.
+                    My journey into tech has been full of exploration and discovery. I started at UW-Madison as a Finance major, drawn to math and STEM, but a Machine Learning internship before my first year changed everything. It introduced me to tech, and I quickly found my passion in front-end development, where I could blend coding, creativity, and design.
+                     <br/>
+                     <br/>
+                     By my junior year, I wanted to take things further and explore research through Human-Computer Interaction (HCI). Now, as an undergrad researcher in a lab at the Information School, I’m building audit reports and visualizations, merging design with data analysis to solve real-world problems.
+                     <br/>
+                     <br/>
+                    To tie it all together, I’m also pursuing a Digital Studies minor, which helps me bring creative storytelling into tech.
+                    Whether it’s through design, research, or coding, I’m passionate about creating user-centered, impactful solutions.
                      </p>
                 </Col>
             </Row>

@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import ContactBox from "../../Components/ContactBox";
 import ProjectCards from "../../Components/ProjectsCards/ProjectCards";
 import TechnicalBG from "../../Components/Experience/TechnicalBG";
+import DataScience from "../../Components/ProjectsCards/DataScienceProjects";
 
 export default function HeroSection() {
     const navigate = useNavigate();
@@ -28,7 +29,7 @@ export default function HeroSection() {
                                     I'm Emili,
                                 </span>
                                 <br />
-                                and interested in: <span className="highlighted-SWE-text">UX/UI, HCI, & SWE!</span>
+                                my passions are: <span className="highlighted-SWE-text">UX/UI, HCI, & SWE!</span>
                             </h1>
                             <p className="hero--section--description">
                                 I am currently a senior at the University of Wisconsin-Madison studying Computer Science & Data Science, with minors in Digital Studies and Leadership.
@@ -54,6 +55,7 @@ export default function HeroSection() {
                 <TechnicalBG/>
                 <Techstack />
                 <ProjectCards/>
+                <DataScience/>
                 <div className="contact-box-container">
                     <ContactBox />
                 </div>

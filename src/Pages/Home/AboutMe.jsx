@@ -16,6 +16,7 @@ import RTC from "../../Assets/RTC.png";
 import Merit from "../../Assets/merit.jpg";
 import MLT from "../../Assets/MLT.png";
 import ATLAS from "../../Assets/ATLASFill.jpeg";
+import wacm from "../../Assets/wacm.png";
 
 export default function AboutMe(){
     return(
@@ -40,6 +41,20 @@ export default function AboutMe(){
             <br/>
             <h2>Currently Participating In....</h2>
             <Row>
+            <MDBCard className="projects-card m-3" border="danger" style={{ width: '18rem', height: 'auto'}}>
+                <MDBCardImage
+                src={wacm}
+                position="top"
+                alt="wacm"/>
+                <MDBCardBody className="d-flex flex-column justify-content-between">
+                    <MDBCardTitle>Biweekly Chair & Mentor</MDBCardTitle>
+                    <MDBCardText>
+                        Leads biweekly lunches with professors and industry speakers. As well as mentoring 2 undergraduate students in computer science.
+                    </MDBCardText>
+                    <MDBBtn tag="a" href="https://wacm.cs.wisc.edu/about.html" className="stretched-link">Biweekly Chair & Mentor</MDBBtn>
+                </MDBCardBody>
+            </MDBCard>
+
             <MDBCard className="projects-card m-3" border="primary" style={{ width: '18rem', height: 'auto'}}>
                 <MDBCardImage
                 src={wiscience}

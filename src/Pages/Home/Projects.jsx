@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCards from "../../Components/ProjectsCards/ProjectCards";
 import HardwareProjects from "../../Components/ProjectsCards/HardwareProjects";
 import DigitalProjects from "../../Components/ProjectsCards/DigitalProjects";
+import DataScienceProjects from "../../Components/ProjectsCards/DataScienceProjects";
 
 export default function Projects(){
      return(
@@ -15,6 +16,7 @@ export default function Projects(){
                 </div>
             </div>
             <ProjectCards/>
+            <DataScienceProjects/>
             <HardwareProjects/>
             <DigitalProjects/>
         </div>

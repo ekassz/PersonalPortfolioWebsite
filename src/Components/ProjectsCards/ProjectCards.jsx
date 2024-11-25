@@ -1,9 +1,9 @@
 import {Row, Col, Container} from 'react-bootstrap';
 import LinkTreeEmili from '../../Assets/LinkTreeEmili.png';
-import MadisonVisual from '../../Assets/MadisonVisual.png';
 import TestRail from '../../Assets/TestRail.png';
 import BadgerChat from '../../Assets/BadgerChat.png';
 import Survey from '../../Assets/Survey.png';
+import PieceItPC from '../../Assets/PieceItPC.png';
 import {
   MDBCard,
   MDBCardBody,
@@ -20,6 +20,22 @@ function ProjectCards() {
       <Container className="title">
       <h2 className='text-center'>Software Projects</h2>
             <Row className='row-equal-height g-4'>
+              <Col xs={12} md={4} lg={3}>
+            <MDBCard className="project-card" border="danger" style={{ width: 'auto'}}>
+                <MDBCardImage
+                src={PieceItPC}
+                position="top"
+                alt="linktree"/>
+                <MDBCardBody>
+                    <MDBCardTitle>PieceItPC App</MDBCardTitle>
+                    <MDBCardText>
+                      Currently developing an android app to help users get knowledgable with building a PC. In a team of 4, we're utilizing Kotlin Programming, Firebase: Authentication, Realtime Database and Cloud Storage.
+                      </MDBCardText>
+                    <MDBBtn tag="a" href="https://github.com/ekassz/PieceItPC" className="stretched-link">PieceItPC Repo</MDBBtn>
+                </MDBCardBody>
+            </MDBCard>
+            </Col>
+
             <Col xs={12} md={4} lg={3}>
             <MDBCard className="project-card" border="primary" style={{ width: 'auto'}}>
                 <MDBCardImage
@@ -31,23 +47,7 @@ function ProjectCards() {
                     <MDBCardText>
                       Made a personal link tree website to learn front-end development using HTML and CSS. Includes both projects and social links to side hobbies.
                       </MDBCardText>
-                    <MDBBtn tag="a" href="" className="stretched-link">Link Tree</MDBBtn>
-                </MDBCardBody>
-            </MDBCard>
-            </Col>
-
-            <Col xs={12} md={4} lg={3}> {/*xs - 2 cards, md - 3, lg -4*/}
-            <MDBCard className="project-card" border="secondary" style={{ width: '100%'}}>
-                <MDBCardImage
-                src={MadisonVisual}
-                position="top"
-                alt="visual"/>
-                <MDBCardBody>
-                    <MDBCardTitle>Madison Counties Visualization</MDBCardTitle>
-                    <MDBCardText>
-                        Analyzed the relationship between population density and use in Wisconsin counties using geospatial data and machine learning models.
-                    </MDBCardText>
-                    <MDBBtn tag="a" href="https://github.com/ekassz/MadisonVisualization" className="stretched-link">Madison Visual</MDBBtn>
+                    <MDBBtn tag="a" href="https://sage-stardust-ee1f32.netlify.app/" className="stretched-link">Link Tree</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
             </Col>
@@ -95,7 +95,7 @@ function ProjectCards() {
                     <MDBCardText>
                       Participated in a Hack Week within Starbucks and integrated a survey pop-up feature in the Starbucks app using React-Native. We ended up making it to the Sweet 16 rounds!
                       </MDBCardText>
-                    <MDBBtn tag="a" href="https://atlasfellows.org/fellow/emili-robles/" className="stretched-link">Starbucks Hack</MDBBtn>
+                    <MDBBtn tag="a" href="https://github.com/ekassz/SurveyInApp" className="stretched-link">Starbucks Hack</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
             </Col>
