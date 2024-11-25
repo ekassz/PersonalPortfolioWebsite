@@ -28,10 +28,10 @@ export default function HeroSection() {
                                     I'm Emili,
                                 </span>
                                 <br />
-                                an aspiring <span className="highlighted-SWE-text">Software Engineer!</span>
+                                and interested in: <span className="highlighted-SWE-text">UX/UI, HCI, & SWE!</span>
                             </h1>
                             <p className="hero--section--description">
-                                I am a rising senior at the University of Wisconsin-Madison studying Computer Science & Data Science, with minors in Digital Studies and Leadership.
+                                I am currently a senior at the University of Wisconsin-Madison studying Computer Science & Data Science, with minors in Digital Studies and Leadership.
                             </p>
                             <button className="btn btn-primary" onClick={handleContactMe}>Get in Touch</button>
                         </div>
